@@ -17,4 +17,9 @@ What can you do with GDP numbers?
 Population <- It is the population number.
 Population includes resident population plus armed forces overseas. The monthly estimate is the average of estimates for the first of the month and the first of the following month.
 
+# The Statiscal presentation made in R will represent the following.
 
+1.Data preparation: combine all data into an R dataframe object, and construct dummy or factor variable for 4 quarters. First model is HOUST ∼ GDP + CPI + quarter.
+2.Data needs some cleaning.
+3.Seasonal effect observed in data if any.
+4.A pair-wise comparison for different quarters. Which quarter do you think is the best one to buy a house?
